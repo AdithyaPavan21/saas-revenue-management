@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>SaaS Admin</label>
+
+    <!-- OBJECT PERMISSIONS -->
+
+    <objectPermissions>
+        <object>Subscription__c</object>
+        <allowCreate>true</allowCreate>
+        <allowRead>true</allowRead>
+        <allowEdit>true</allowEdit>
+        <allowDelete>true</allowDelete>
+        <viewAllRecords>true</viewAllRecords>
+        <modifyAllRecords>true</modifyAllRecords>
+    </objectPermissions>
+
+    <objectPermissions>
+        <object>Invoice__c</object>
+        <allowCreate>true</allowCreate>
+        <allowRead>true</allowRead>
+        <allowEdit>true</allowEdit>
+        <allowDelete>true</allowDelete>
+        <viewAllRecords>true</viewAllRecords>
+        <modifyAllRecords>true</modifyAllRecords>
+    </objectPermissions>
+
+    <objectPermissions>
+        <object>Payment__c</object>
+        <allowCreate>true</allowCreate>
+        <allowRead>true</allowRead>
+        <allowEdit>true</allowEdit>
+        <allowDelete>true</allowDelete>
+        <viewAllRecords>true</viewAllRecords>
+        <modifyAllRecords>true</modifyAllRecords>
+    </objectPermissions>
+
+    <objectPermissions>
+        <object>Integration_Log__c</object>
+        <allowCreate>true</allowCreate>
+        <allowRead>true</allowRead>
+        <allowEdit>true</allowEdit>
+        <allowDelete>true</allowDelete>
+        <viewAllRecords>true</viewAllRecords>
+        <modifyAllRecords>true</modifyAllRecords>
+    </objectPermissions>
+
+    <!-- SUBSCRIPTION FIELDS -->
+
+    <fieldPermissions>
+        <field>Subscription__c.Account__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Subscription__c.Opportunity__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Subscription__c.Product__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Subscription__c.Status__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Subscription__c.Start_Date__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Subscription__c.End_Date__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Subscription__c.Billing_Frequency__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Subscription__c.Subscription_Amount__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Subscription__c.Next_Billing_Date__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Subscription__c.Auto_Renew__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Subscription__c.Renewal_Date__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Subscription__c.Cancellation_Date__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Subscription__c.External_Subscription_ID__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <!-- INVOICE FIELDS -->
+
+   
+
+    <fieldPermissions>
+        <field>Invoice__c.Account__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Invoice__c.Invoice_Date__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Invoice__c.Due_Date__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Invoice__c.Billing_Period_Start__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Invoice__c.Billing_Period_End__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Invoice__c.Amount__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Invoice__c.Tax__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Invoice__c.Total_Amount__c</field>
+        <readable>true</readable>
+        <editable>false</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Invoice__c.Status__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Invoice__c.External_Invoice_ID__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Invoice__c.Payment_Date__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <!-- PAYMENT FIELDS -->
+
+   
+
+    <fieldPermissions>
+        <field>Payment__c.Account__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Payment__c.Amount__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Payment__c.Status__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Payment__c.Payment_Method__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Payment__c.Transaction_ID__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Payment__c.Payment_Date__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Payment__c.Failure_Reason__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <!-- INTEGRATION LOG FIELDS -->
+
+    <fieldPermissions>
+        <field>Integration_Log__c.Integration_Type__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Integration_Log__c.Direction__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Integration_Log__c.Endpoint__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Integration_Log__c.Request_Body__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Integration_Log__c.Response_Body__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Integration_Log__c.HTTP_Status_Code__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Integration_Log__c.Status__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Integration_Log__c.Error_Message__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Integration_Log__c.Related_Record_Id__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Integration_Log__c.Retry_Count__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <!-- OPPORTUNITY CUSTOM FIELDS -->
+
+    <fieldPermissions>
+        <field>Opportunity.Billing_Frequency__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Opportunity.Contract_Term_Months__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+    <fieldPermissions>
+        <field>Opportunity.Auto_Renew__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
+
+</PermissionSet>
