@@ -194,6 +194,12 @@
         <editable>true</editable>
     </fieldPermissions>
 
+    <fieldPermissions>
+    <field>Invoice__c.Billing_Cycle_Key__c</field>
+    <readable>true</readable>
+    <editable>true</editable>
+</fieldPermissions>
+
     <!-- PAYMENT FIELDS -->
 
    
