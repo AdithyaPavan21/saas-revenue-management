@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subscription_Amount_Must_Be_Positive</fullName>
+    <active>true</active>
+    <description>Prevents a subscription from having a zero or negative subscription amount.</description>
+    <errorConditionFormula>AND(
+    NOT(ISBLANK(Subscription_Amount__c)),
+    Subscription_Amount__c &lt;= 0
+)</errorConditionFormula>
+    <errorDisplayField>Subscription_Amount__c</errorDisplayField>
+    <errorMessage>Subscription Amount must be greater than zero.</errorMessage>
+</ValidationRule>

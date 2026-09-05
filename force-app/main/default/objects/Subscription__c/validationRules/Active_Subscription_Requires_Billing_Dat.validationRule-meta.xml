@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active_Subscription_Requires_Billing_Dat</fullName>
+    <active>true</active>
+    <description>Ensures an Active subscription always has a Next Billing Date for recurring invoice processing.</description>
+    <errorConditionFormula>AND(
+    ISPICKVAL(Status__c, &quot;Active&quot;),
+    ISBLANK(Next_Billing_Date__c)
+)</errorConditionFormula>
+    <errorDisplayField>Next_Billing_Date__c</errorDisplayField>
+    <errorMessage>Next Billing Date is required when the Subscription is Active.</errorMessage>
+</ValidationRule>
