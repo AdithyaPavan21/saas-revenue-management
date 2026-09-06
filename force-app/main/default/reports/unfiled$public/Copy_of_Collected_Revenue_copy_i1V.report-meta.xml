@@ -40,7 +40,7 @@
     <showGrandTotal>true</showGrandTotal>
     <showSubTotals>true</showSubTotals>
     <timeFrameFilter>
-        <dateColumn>Subscription__c$Cancellation_Date__c</dateColumn>
-        <interval>INTERVAL_CURRENT</interval>
+        <dateColumn>Subscription__c.Invoices__r$Payment_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
     </timeFrameFilter>
 </Report>

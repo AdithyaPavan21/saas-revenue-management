@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+
+    <types>
+        <members>Pavan/qZxWWKobhNYnrFzRkMtetZGyHFbkbR</members>
+        <name>Dashboard</name>
+    </types>
+
+    <types>
+        <members>unfiled$public/New_Subscriptions_Report_urH</members>
+        <members>unfiled$public/New_Report_QrM</members>
+        <members>unfiled$public/Overdue_Invoices_PQP</members>
+        <members>unfiled$public/Copy_of_Collected_Revenue_copy_i1V</members>
+        <name>Report</name>
+    </types>
+
+    <types>
+        <members>SaaS_Revenue_Management_HomePage</members>
+        <name>FlexiPage</name>
+    </types>
+
+    <types>
+        <members>SaaS_Revenue_Management</members>
+        <name>CustomApplication</name>
+    </types>
+
+    <version>67.0</version>
+</Package>

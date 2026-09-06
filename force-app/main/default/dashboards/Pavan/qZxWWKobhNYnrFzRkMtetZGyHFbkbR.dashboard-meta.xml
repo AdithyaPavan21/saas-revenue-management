@@ -14,7 +14,8 @@
             <dashboardComponent>
                 <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
                 <chartSummary>
-                    <column>RowCount</column>
+                    <aggregate>Sum</aggregate>
+                    <column>Subscription__c.Subscription_Amount__c</column>
                 </chartSummary>
                 <componentType>Metric</componentType>
                 <decimalPrecision>-1</decimalPrecision>
@@ -39,8 +40,9 @@
                 <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
                 <chartAxisRange>Auto</chartAxisRange>
                 <chartSummary>
+                    <aggregate>Sum</aggregate>
                     <axisBinding>y</axisBinding>
-                    <column>RowCount</column>
+                    <column>Subscription__c.Invoices__r.Payments__r$Amount__c</column>
                 </chartSummary>
                 <componentType>Column</componentType>
                 <decimalPrecision>-1</decimalPrecision>

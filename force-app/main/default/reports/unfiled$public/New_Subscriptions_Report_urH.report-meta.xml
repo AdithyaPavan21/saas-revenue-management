@@ -10,6 +10,7 @@
         <field>Subscription__c.Product__c</field>
     </columns>
     <columns>
+        <aggregateTypes>Sum</aggregateTypes>
         <field>Subscription__c.Subscription_Amount__c</field>
     </columns>
     <columns>
@@ -44,7 +45,7 @@
     <showDetails>true</showDetails>
     <showGrandTotal>true</showGrandTotal>
     <showSubTotals>true</showSubTotals>
-    <sortColumn>Subscription__c.Product__c</sortColumn>
+    <sortColumn>Subscription__c.Subscription_Amount__c</sortColumn>
     <sortOrder>Asc</sortOrder>
     <timeFrameFilter>
         <dateColumn>Subscription__c.Cancellation_Date__c</dateColumn>
