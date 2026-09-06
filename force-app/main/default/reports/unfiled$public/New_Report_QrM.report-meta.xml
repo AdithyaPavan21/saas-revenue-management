@@ -13,6 +13,7 @@
         <field>Subscription__c.Invoices__r.Payments__r$Transaction_ID__c</field>
     </columns>
     <columns>
+        <aggregateTypes>Sum</aggregateTypes>
         <field>Subscription__c.Invoices__r.Payments__r$Amount__c</field>
     </columns>
     <filter>
