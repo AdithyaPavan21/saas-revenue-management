@@ -1,0 +1,20 @@
+<template>
+    <lightning-quick-action-panel header="Process Payment">
+       <lightning-input
+    type="number"
+    label="Payment Amount"
+    value={paymentAmount}
+    step="0.01"
+    formatter="currency"
+    read-only>
+</lightning-input>
+        <lightning-combobox label="Payment Method" value={paymentMethod} options={paymentMethodOptions} onchange={handleMethodChange} required>
+        </lightning-combobox>
+        <lightning-input type="text" label="Transaction Id" value={transactionId} onchange={handleTransactionChange} required>
+        </lightning-input>
+        <div slot="footer">
+            <lightning-button class="slds-m-left-small" variant="brand" label="Process Payment" onclick={handlePayment}>
+            </lightning-button>
+        </div>
+    </lightning-quick-action-panel>
+</template>
